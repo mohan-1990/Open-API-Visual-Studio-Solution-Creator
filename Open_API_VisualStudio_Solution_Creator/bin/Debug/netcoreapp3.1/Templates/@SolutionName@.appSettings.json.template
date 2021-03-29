@@ -1,0 +1,18 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "RDB": "Data Source=172.16.238.102; Initial Catalog=@SolutionName_WhiteSpaceRemoved@; User ID=sa;Password=Bsg@1998;"    
+  },
+  "API": {
+    "Name": "@SolutionName@",
+    "BaseURL": "@BaseURL@",
+    "SwaggerUIPrefix": "@BaseURL@/swagger"
+  }
+}

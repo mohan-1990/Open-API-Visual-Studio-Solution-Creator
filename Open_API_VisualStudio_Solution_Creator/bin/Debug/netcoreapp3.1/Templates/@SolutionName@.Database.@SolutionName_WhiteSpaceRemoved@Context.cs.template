@@ -1,0 +1,16 @@
+﻿using Microsoft.EntityFrameworkCore;
+using @ProjectName_UnderscoreSeperated@.Models;
+
+namespace @ProjectName_UnderscoreSeperated@.Database
+{
+    public class @SolutionName_WhiteSpaceRemoved@Context : DbContext
+    {
+        
+        public @SolutionName_WhiteSpaceRemoved@Context(DbContextOptions<@SolutionName_WhiteSpaceRemoved@Context> options) : base(options)
+        {
+
+        }
+
+        @ModelReferences@
+    }
+}
